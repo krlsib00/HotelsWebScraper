@@ -49,6 +49,8 @@ namespace Scraper
                 }
 
                 Console.WriteLine(JsonConvert.SerializeObject(results, Formatting.Indented));
+
+                Console.ReadLine();
             }
         }
     }
